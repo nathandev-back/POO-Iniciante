@@ -3,7 +3,7 @@ public class exibir extends Cadastrar{
         
         System.out.print("""
                 ========================
-                Informações do produto
+                    Informações do produto
                 
                 Produto = %s
                 Preço = %.2f
