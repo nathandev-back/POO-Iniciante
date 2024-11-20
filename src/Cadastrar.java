@@ -18,7 +18,7 @@ public class Cadastrar extends Produto {
         System.out.print("Digite o nome do produto que voce deseja cadastrar: ");
         setName(scanner.nextLine());
 
-        System.out.print("Digite o valor desse item: R$");
+        System.out.print("Digite o valor do produto: R$");
         setPreco(scanner.nextDouble());
 
         System.out.print("Digite a quantidade de produtos: ");
