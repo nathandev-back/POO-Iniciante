@@ -1,11 +1,11 @@
 public class Produto {
 
     private String name;
-    private int preco;
+    private double preco;
     private int quantia;
 
 
-    public Produto(String name,int preco, int quantia) {
+    public Produto(String name, double preco, int quantia) {
         this.name = name;
         this.preco = preco;
         this.quantia = quantia;
@@ -17,13 +17,29 @@ public class Produto {
     {
         return name;
     }
-    public int getPreco()
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public double getPreco()
     {
         return preco;
     }
+
+    public void setPreco(double preco)
+    {
+        this.preco = preco;
+    }
+
     public int getQuantia()
     {
         return quantia;
+    }
+
+    public void setQuantia(int quantia)
+    {
+        this.quantia = quantia;
     }
     
 }

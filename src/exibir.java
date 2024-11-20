@@ -1,18 +1,18 @@
-public class exibir {
-    public static void Informacoes(Produto produto) {
+public class exibir extends Cadastrar{
+    public  void Informacoes () {
         
         System.out.print("""
                 ========================
                 Informações do produto
                 
                 Produto = %s
-                Preço = %d
+                Preço = %.2f
                 Quantidade = %d
                 
                 ========================
                 
                 
-                """.formatted(produto.getName(),produto.getPreco(), produto.getQuantia()));
+                """.formatted(getName(),getPreco(), getQuantia()));
     }
     
 }
