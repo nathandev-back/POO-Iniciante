@@ -6,8 +6,6 @@ public class Cadastrar extends Produto {
     public Cadastrar()
     {
         super("", 00, 0);
-
-
     }
 
     public void solicitacaoCadastro()

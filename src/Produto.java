@@ -5,8 +5,9 @@ public class Produto {
     private int quantia;
 
 
-    public Produto(String name, double preco, int quantia) {
-        
+    public Produto(String name, double preco, int quantia) 
+    {
+
         this.name = name;
         this.preco = preco;
         this.quantia = quantia;

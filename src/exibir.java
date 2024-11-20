@@ -5,9 +5,9 @@ public class exibir extends Cadastrar{
                 ========================
                     Informações do produto
                 
-                Produto = %s
-                Preço = %.2f
-                Quantidade = %d
+                    Produto = %s
+                    Preço = %.2f
+                    Quantidade = %d
                 
                 ========================
                 
