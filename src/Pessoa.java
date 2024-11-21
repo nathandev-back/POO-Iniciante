@@ -8,14 +8,14 @@ public class Pessoa {
         String nome;
         int idade;
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner leitura = new Scanner(System.in);
 
 
         System.out.print("Digite seu nome");
-        nome = scanner.nextLine();
+        nome = leitura.nextLine();
 
         System.out.print("Digite sua idade: ");
-        idade = scanner.nextInt();
+        idade = leitura.nextInt();
 
         System.out.print("Perfeito, Seja bem vindo %s, voce tem %d anos");
         System.out.print("Me tire uma duvida, voce esta fazendo aniversario hoje? ");
@@ -23,7 +23,7 @@ public class Pessoa {
 
         boolean opcaoValida = true;
 
-        String aniversarioUsuario = scanner.nextLine();
+        String aniversarioUsuario = leitura.nextLine();
         String minuscula = aniversarioUsuario.toLowerCase();
 
         if (aniversarioUsuario == "sim")

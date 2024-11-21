@@ -10,6 +10,7 @@ public class Cadastrar extends Produto {
 
     public void solicitacaoCadastro()
     {
+        
         Scanner scanner = new Scanner(System.in);
 
 

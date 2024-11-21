@@ -12,7 +12,6 @@ public class Produto {
         this.preco = preco;
         this.quantia = quantia;
 
-
     }
 
     public String getName()

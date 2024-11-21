@@ -1,6 +1,7 @@
 public class exibir extends Cadastrar{
     public  void Informacoes () {
         
+        
         System.out.print("""
                 ========================
                     Informações do produto
